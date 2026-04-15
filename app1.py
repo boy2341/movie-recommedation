@@ -8,7 +8,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 # Loading dataset (SOURCE - Kagle)
 df = pd.read_csv("imdb_top_1000.csv") # ----> Dataset with 1000 toprated movies with ratings, cast, grossing etc..
-st.dataframe(df)
+
 
 
 # Select useful columns and fill blanks
