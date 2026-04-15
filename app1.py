@@ -39,7 +39,7 @@ similarity = cosine_similarity(count_matrix)
 def recommend(movie_name, n=5):
     movie_name = movie_name.lower()
     if movie_name not in df['Series_Title'].str.lower().values:
-        st.write("❌❌❌ Movie not found. Please check spelling or The Movie is Not in the Database ❌❌❌")
+        st.write("Enter the Movie Cutie❤️")
         return
     
     # find movie index
